@@ -47,6 +47,8 @@ public class Place implements Parcelable{
         name = in.readString();
         longitude = in.readDouble();
         latitude = in.readDouble();
+        imageUrl = in.readString();
+        ranking = in.readInt();
     }
 
     public static final Creator<Place> CREATOR = new Creator<Place>() {
@@ -95,5 +97,8 @@ public class Place implements Parcelable{
         parcel.writeString(name);
         parcel.writeDouble(longitude);
         parcel.writeDouble(latitude);
+
+        parcel.writeString(imageUrl);
+        parcel.writeInt(ranking);
     }
 }

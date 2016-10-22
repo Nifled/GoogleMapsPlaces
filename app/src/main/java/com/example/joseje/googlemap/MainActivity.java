@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity implements ListClickElement,
 
     @Override
     public void onItemClick(Place place) {
-        MapsActivity.start(this, place);
+        DetailPlaceActivity.start(this, place);
     }
 
     @Override

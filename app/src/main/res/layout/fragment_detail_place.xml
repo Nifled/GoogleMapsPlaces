@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/activity_detail_place"
+android:layout_width="match_parent"
+android:orientation="vertical"
+android:layout_height="match_parent"
+tools:context="com.example.joseje.googlemap.DetailPlaceActivity">
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/place_image_view"
+    android:adjustViewBounds="true"
+    />
+
+<TextView
+    android:text="@string/title_name"
+    style="@style/header_text" />
+
+<TextView
+    android:id="@+id/place_name_attribute"
+    style="@style/attribute_text" />
+
+<TextView
+    android:text="@string/ranking"
+    style="@style/header_text" />
+
+<TextView
+    android:id="@+id/place_ranking_attribute"
+    style="@style/attribute_text" />
+
+    <RelativeLayout
+        android:layout_marginTop="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/map_button"
+            android:text="@string/map_button_text"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+
+</LinearLayout>
+

@@ -41,6 +41,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.joseje.googlemap.MainActivity" />
         </activity>
+        <activity android:name=".DetailPlaceActivity"></activity>
     </application>
 
 </manifest>

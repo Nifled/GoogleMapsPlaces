@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">Googlemap</string>
     <string name="title_activity_maps">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_name">Name: </string>
+    <string name="ranking">Ranking:</string>
+    <string name="map_button_text">Show location on Map.</string>
 </resources>
